@@ -1,0 +1,12 @@
+.highlight-btn{
+  padding: 12px 24px;
+  border: 1.5px solid #4aed52;
+  border-radius: 5px;
+  background-color: #BD24E6;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(254, 254, 254, 0.7);
+  margin: 12px;
+}

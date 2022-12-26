@@ -5,10 +5,9 @@ import Rec4 from "../img/Rectangle 54.png"
 import Rec5 from "../img/Rectangle 55.png"
 import Rec6 from "../img/Rectangle 56.png"
 
-const Background = ({ children }) => {
+const Background = () => {
 	return (
 		<section className='bg-section'>
-			{children}
 			<img src={Rec1} alt='rec1' />
 			<img src={Rec2} alt='rec2' />
 			<img src={Rec3} alt='rec3' />
