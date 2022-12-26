@@ -9,9 +9,7 @@
   align-items: center;
 }
 .buttons{
-  width: 500px;
   display: flex;
-  justify-content:space-between;
   align-items: center;
   margin-top: 12px;
 }
@@ -27,22 +25,26 @@
 }
 .hero-img{
   height: 480px;
+  position: relative;
+  top: -82px;
+  right: 30px;
+}
+.btn-hero{
+  height: 54px;
+  padding-left: 24px;
+  cursor: pointer;
 }
 .img-container{
   position: relative;
-  display: flex;
-  align-items: center;
-  width: 420px;
-  border: 1px solid #fff;
-  background-color: 1px solid linear-gradient(90deg, rgba(231,0,255,1) 0%, rgba(74,237,82,1) 100%);
-  border-radius: 10px;
+  bottom: 20px;
 }
-.img-description{
+.img-border{
   position: relative;
-  bottom: -170px;
-  right: 470px;
-  width: 200px ;
-  background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.201) -6.39%, rgba(255, 255, 255, 0.063) 112.17%);
-opacity: 0.6;
-backdrop-filter: blur(5px); backdrop-filter: blur(5px);
+  top: 60px;
+  height: 400px;
+  width: 380px;
+  display: flex;
+  border: 1px solid rgba(231,0,255,1);
+  z-index: 100;
+  border-radius: 10px;
 }

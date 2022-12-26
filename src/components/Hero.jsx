@@ -1,6 +1,7 @@
 import Button from "./Button"
 import "./styles/hero.css"
-import Monkey from "../img/Monkey.png"
+import HowWorks from "../img/How it Works Button.png"
+import HeroCard from "./HeroCard"
 const Hero = () => {
 	return (
 		<section className='hero-container'>
@@ -13,15 +14,10 @@ const Hero = () => {
 				</p>
 				<div className='buttons'>
 					<Button text={"CONNECT WALLET"} />
-					<p>HOW IT WORKS</p>
+					<img src={HowWorks} alt='howworks' className='btn-hero' />
 				</div>
 			</div>
-			<div className='img-container'>
-				<img src={Monkey} alt='Monkey' className='hero-img' />
-				<div className='img-description'>
-					<h3>Monkey gordo</h3>
-				</div>
-			</div>
+			<HeroCard />
 		</section>
 	)
 }
