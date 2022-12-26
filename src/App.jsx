@@ -1,12 +1,15 @@
 import { useState } from "react"
-import img from "./img/Rectangle 51.png"
+import Background from "./components/Background"
+import Navbar from "./components/Navbar"
 
 function App() {
 	const [count, setCount] = useState(0)
 
 	return (
 		<div className='App'>
-			<img src={img} alt='' />
+			<Background>
+				<Navbar />
+			</Background>
 		</div>
 	)
 }

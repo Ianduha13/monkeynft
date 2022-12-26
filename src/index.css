@@ -1,4 +1,12 @@
-.App{
-  background-image: url(./img/Rectangle\ 51.png);
-  height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-section{
+  display: flex;
+  flex-direction: column;
+  z-index: -20;
 }

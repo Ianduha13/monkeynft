@@ -1,0 +1,31 @@
+.navbar-container{
+  position: absolute;
+  z-index: 1000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 20px 48px 0px 48px;
+}
+.navbar-left{
+  cursor: pointer;
+}
+.navbar-center{
+  width: 30%;
+}
+.nav-options{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav-item{
+  cursor: pointer;
+}
+.navbar-right{
+  background: transparent;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid #4AED52;
+}
