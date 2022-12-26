@@ -1,0 +1,6 @@
+import Rec1 from "../img/Rectangle 51.png"
+import Rec2 from "../img/Rectangle 52.png"
+import Rec3 from "../img/Rectangle 51.png"
+import Rec4 from "../img/Rectangle 51.png"
+import Rec5 from "../img/Rectangle 51.png"
+import Rec6 from "../img/Rectangle 51.png"
