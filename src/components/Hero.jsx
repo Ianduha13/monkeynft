@@ -13,7 +13,7 @@ const Hero = () => {
 					character collections non fungible token NFTs.
 				</p>
 				<div className='buttons'>
-					<Button text={"CONNECT WALLET"} />
+					<Button text={"CONNECT WALLET"} color='purple' />
 					<img src={HowWorks} alt='howworks' className='btn-hero' />
 				</div>
 			</div>

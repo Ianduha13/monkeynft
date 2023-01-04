@@ -1,0 +1,48 @@
+.hero-img{
+  height: 560px;
+  position: relative;
+  top: -104px;
+  right: 20px;
+}
+.img-container{
+  position: relative;
+  bottom: 40px;
+}
+.img-border{
+  position: relative;
+  top: 60px;
+  height: 460px;
+  width: 460px;
+  display: flex;
+  border: 1px solid rgba(231,0,255,1);
+  z-index: 100;
+  border-radius: 10px;
+background: linear-gradient(124.65deg, rgba(224, 37, 206, 0.6) 22.81%, rgba(74, 237, 82, 0.6) 98.66%);
+}
+.monkey-header{
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  padding: 12px;
+  border-radius: 0 0 5px 5px;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.monkey-h3{
+  color: #fff;
+}
+.hero-price{
+  display: flex;
+  width: 160px;
+  padding: 4px;
+  align-items: center;
+  gap: 0.8rem;
+}
+.eth-hero-icon{
+  height: 32px;
+}
+

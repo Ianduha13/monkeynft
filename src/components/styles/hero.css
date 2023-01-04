@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   color: #fff;
-  height: 90vh;
+  height: 85vh;
   width: 80%;
   max-width: 1200px;
   justify-content: space-between;
@@ -23,43 +23,9 @@
   font-size: 68px;
   margin-bottom: 6px;
 }
-.hero-img{
-  height: 560px;
-  position: relative;
-  top: -104px;
-  right: 20px;
-}
+
 .btn-hero{
   height: 54px;
   padding-left: 24px;
   cursor: pointer;
 }
-.img-container{
-  position: relative;
-  bottom: 20px;
-}
-.img-border{
-  position: relative;
-  top: 60px;
-  height: 460px;
-  width: 460px;
-  display: flex;
-  border: 1px solid rgba(231,0,255,1);
-  z-index: 100;
-  border-radius: 10px;
-}
-.monkey-header{
-  position: absolute;
-  bottom: 0;
-  height: 100px;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
-  padding: 12px;
-  border-radius: 0 0 5px 5px;
-  border: 0;
-}
-.monkey-h3{
-  color: #fff;
-}
-

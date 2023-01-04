@@ -1,11 +1,22 @@
 .companies-banner{
-  width: 100vw;
   display: flex;
-  flex-wrap: nowrap;
+  padding: 32px 64px;
+  width: 100vw;
+  background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.132) -6.39%, rgba(143, 143, 143, 0.063) 112.17%);
+  border-top: 1px solid #E025CEB2;
+  border-bottom: 1px solid #4AED52B2;
 }
-
-.img-companies{
-  background: #000;
-  width: 200%;
-  height: 10%;
+.companies-list{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.list-item{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 0.8rem;
+  color: #fff;
 }
