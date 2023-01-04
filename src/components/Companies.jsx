@@ -1,10 +1,10 @@
-import companies from "../img/Companies.png"
 import "./styles/companies.css"
+import Icon from "react-crypto-icons"
 
 const Companies = () => {
 	return (
 		<section className='companies-banner'>
-			<div className='img-companies'></div>
+			<Icon name='btc' size={25} />
 		</section>
 	)
 }

@@ -8,17 +8,4 @@
   background: #000;
   width: 200%;
   height: 10%;
-  animation: backwards 1s fade-in;
-	animation-name: infiniteScroll;
-	animation-duration: 20s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-}
-@keyframes infiniteScroll {
-  0%{
-    transform: translatex(2000px);
-  }
-  100%{
-    transform: translatex(-2000px);
-  }
 }
