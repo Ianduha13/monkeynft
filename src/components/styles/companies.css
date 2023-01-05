@@ -16,7 +16,13 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  text-align: center;
   gap: 0.8rem;
   color: #fff;
+}
+.list-item a {
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  
 }

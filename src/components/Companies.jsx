@@ -1,4 +1,3 @@
-import companies from "../img/Companies.png"
 import "./styles/companies.css"
 import CardanoBadge from "../img/CardanoBadge.svg"
 import BinanceUsdBadge from "../img/BinanceUsdBadge.svg"
@@ -13,27 +12,39 @@ const Companies = () => {
 			<ul className='companies-list'>
 				<li className='list-item'>
 					<img src={CardanoBadge} alt='CardanoBadge' />
-					Cardano
+					<a href='https://cardano.org/' target={"_blank"}>
+						Cardano
+					</a>
 				</li>
 				<li className='list-item'>
 					<img src={BinanceUsdBadge} alt='BinanceUsdBadge' />
-					Binance USD
+					<a href='https://www.binance.com/en/busd/' target={"_blank"}>
+						Binance USD
+					</a>
 				</li>
 				<li className='list-item'>
 					<img src={SolanaBadge} alt='SolanaBadge' />
-					Solana
+					<a href='https://solana.com/' target={"_blank"}>
+						Solana
+					</a>
 				</li>
 				<li className='list-item'>
 					<img src={BitcoinPlusBadge} alt='bitcoinplus' />
-					Bitcoin Plus
+					<a href='https://bitcoinplus.org/' target={"_blank"}>
+						Bitcoin Plus
+					</a>
 				</li>
 				<li className='list-item'>
 					<img src={MetamaskBadge} alt='metamask' />
-					Metamask
+					<a href='https://metamask.io/' target={"_blank"}>
+						Metamask
+					</a>
 				</li>
 				<li className='list-item'>
 					<img src={BinanceSmartBadge} alt='CardanoBadge' />
-					Binance Smart Chain
+					<a href='https://www.binance.com/en' target={"_blank"}>
+						Binance Smart Chain
+					</a>
 				</li>
 			</ul>
 		</section>
