@@ -12,6 +12,12 @@
   flex-direction: column;
   z-index: -20;
 }
+.TechBg{
+  position: absolute;
+  right: 0;
+  top: -130px;
+  width: 100%;
+}
 .App{
   display: flex;
   flex-direction: column;
