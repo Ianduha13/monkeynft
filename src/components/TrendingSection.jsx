@@ -3,6 +3,7 @@ import Monkey1 from "../img/trending/3817d629e3b48d2c7c24eb815ba368b4-removebg 2
 import Monkey2 from "../img/trending/3ba7ba08542ef0ec7a303dfcce44e86b-removebg-preview 1.png"
 import Monkey3 from "../img/trending/5a470a3750a001d142cc20b04ce753f0-removebg-preview 1.png"
 import Monkey4 from "../img/trending/ab22a451d759f67dfcacf8f2a496f082-removebg-preview 1.png"
+import Button from "./Button"
 import "./styles/trending-section.css"
 
 const TrendingSection = () => {
@@ -38,6 +39,8 @@ const TrendingSection = () => {
 					price={"12.6 ETH"}
 				/>
 			</section>
+
+			<Button text={"VIEW MORE"} color='purple highlight-btn-trending' />
 		</section>
 	)
 }

@@ -8,6 +8,11 @@
   margin: 12px;
 }
 .highlight-btn{
+  box-shadow: 0 0 10px rgba(254, 254, 254, 0.7);
+}
+.highlight-btn-trending{
+  margin-top: 100px;
+  padding: 12px 100px;
   box-shadow: 0 0 15px rgba(254, 254, 254, 0.7);
 }
 .purple{
@@ -20,6 +25,7 @@
   padding: 4px 24px;
 }
 .transparent{
+  cursor:auto;
   background:transparent;
   border: 1.5px solid #4aed52;
   text-align: center;
@@ -29,4 +35,5 @@
 .bid{
   background-color: #000;
   border: 0;
+  cursor: pointer;
 }
