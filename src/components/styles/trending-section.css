@@ -1,0 +1,20 @@
+.trending-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  margin-top: 32px;
+}
+.cards-wrapper{
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.trending-title{
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 100px;
+}

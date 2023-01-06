@@ -29,3 +29,9 @@
   padding-left: 24px;
   cursor: pointer;
 }
+.firstBg{
+  max-height: 95vh;
+}
+.btn-hero:hover{
+  transform: scale(1.01);
+}

@@ -21,7 +21,7 @@ const HeroCard = () => {
 							<h3>18.3 ETH</h3>
 						</div>
 					</div>
-					<Button text={"Place a Bid"} color={"black"} />
+					<Button text={"Place a Bid"} color={"black highlight-btn"} />
 				</header>
 			</div>
 		</section>

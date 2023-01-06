@@ -1,12 +1,14 @@
-.highlight-btn{
+.btn{
   padding: 12px 24px;
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 0 15px rgba(254, 254, 254, 0.7);
   margin: 12px;
+}
+.highlight-btn{
+  box-shadow: 0 0 15px rgba(254, 254, 254, 0.7);
 }
 .purple{
   background-color: #BD24E6;
@@ -16,5 +18,15 @@
   background-color: #000;
   border: 0;
   padding: 4px 24px;
-  
+}
+.transparent{
+  background:transparent;
+  border: 1.5px solid #4aed52;
+  text-align: center;
+  padding: 10px 16px;
+  margin: 0px;
+}
+.bid{
+  background-color: #000;
+  border: 0;
 }

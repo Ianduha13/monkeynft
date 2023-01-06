@@ -15,8 +15,8 @@
 .TechBg{
   position: absolute;
   right: 0;
-  top: -130px;
   width: 100%;
+  height: 98vh;
 }
 .App{
   display: flex;
