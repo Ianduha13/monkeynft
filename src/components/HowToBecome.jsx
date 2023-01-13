@@ -11,7 +11,7 @@ const HowToBecome = () => {
 				HOW TO BECOME MONKEY NFT CREATOR
 			</header>
 			<div className='container'>
-				<div className='card-container'>
+				<div className='card-container-bottom'>
 					<div className='card-bottom'>
 						<img src={vector1} alt='vector1' className='img-vector' />
 						<h3 className='theme-title'>CONNECT YOUR WALLET</h3>
@@ -22,7 +22,7 @@ const HowToBecome = () => {
 						</p>
 					</div>
 				</div>
-				<div className='card-container'>
+				<div className='card-container-top'>
 					<div className='card-top'>
 						<img src={vector2} alt='vector1' className='img-vector' />
 						<h3 className='theme-title'>CREATE ARTWORK</h3>
@@ -33,7 +33,7 @@ const HowToBecome = () => {
 						</p>
 					</div>
 				</div>
-				<div className='card-container'>
+				<div className='card-container-bottom'>
 					<div className='card-bottom'>
 						<img src={vector3} alt='vector1' className='img-vector' />
 						<h3 className='theme-title'>UPLOAD YOUR NFTS</h3>
