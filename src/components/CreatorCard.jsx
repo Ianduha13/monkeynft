@@ -18,21 +18,21 @@ const CreatorCard = ({
 					<h3 className='creator-name'>{name}</h3>
 					<p className='author'>{description}</p>
 				</div>
-				<div className='buttons'>
+				<div className='creator-buttons'>
 					<Button text={"Follow"} color={"transparent bid highlight-btn"} />
 					<Button text={"Message"} color={"transparent bid highlight-btn"} />
 				</div>
 				<div className='creator-data'>
-					<div className='artworks'>
-						<h3 className='data-title'>Art Works</h3>
+					<div className='data-column'>
+						<p className='data-title'>Art Works</p>
 						<h4 className='data-number'>{art}</h4>
 					</div>
-					<div className='artworks'>
-						<h3 className='data-title'>Followers</h3>
+					<div className='data-column'>
+						<p className='data-title'>Followers</p>
 						<h4 className='data-number'>{followers}</h4>
 					</div>
-					<div className='artworks'>
-						<h3 className='data-title'>Following</h3>
+					<div className='data-column'>
+						<p className='data-title'>Following</p>
 						<h4 className='data-number'>{following}</h4>
 					</div>
 				</div>
