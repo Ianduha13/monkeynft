@@ -13,6 +13,7 @@ const PopularCreators = () => {
 			<header className='creators-header'>POPULAR CREATORS</header>
 			<div className='cards-wrapper'>
 				<CreatorCard
+					special={"back-1"}
 					profileImg={FirstCreator}
 					bannerImg={firstBg}
 					name={"Alexa Brains"}
@@ -26,18 +27,19 @@ const PopularCreators = () => {
 					bannerImg={secondBg}
 					name={"Alexa Brains"}
 					description={"Specialized in creating monkey NFTs"}
-					art={47}
-					followers={321}
-					following={42}
+					art={120}
+					followers={132000}
+					following={470}
 				/>
 				<CreatorCard
+					special={"back-1"}
 					profileImg={thirdCreator}
 					bannerImg={thirdBg}
 					name={"Alexa Brains"}
 					description={"Specialized in creating monkey NFTs"}
-					art={47}
-					followers={321}
-					following={42}
+					art={13}
+					followers={12054}
+					following={1200}
 				/>
 			</div>
 		</section>
